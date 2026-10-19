@@ -1,48 +1,82 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>Моя Автобіографія</title> 
-<link rel="stylesheet" href="style.css">
-</style>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Моя Автобіографія</title> 
+    <link rel="icon" type="image/svg+xml" href="accessibility-svgrepo-com.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
- <body>
-  <div class="container">
-   <header>
-    <h1>Моя Автобіографія</h1>
-     <img src="2026-09-11 10.50.14.jpg" alt="Ваше фото"> 
-      <p>Введіть ваші особисті дані та інформацію про вас тут.</p>
-  </header>
-   <section>
-    <h2>Особисті дані</h2>
-     <ul>
-      <li><strong>Ім'я:</strong> Богдан</li>
-      <li><strong>Дата народження:</strong> 2007-11-05</li>
-      <li><strong>Місце проживання:</strong> Черкаси, Україна</li>
-      <li><strong>Електронна пошта:</strong> bogdan@example.com</li>
-      <li><strong>Телеграм:</strong> @bogdan</li>
-     </ul>
-    </section>
-<section>
- <h2>Освіта</h2>
-  <p>Я навчаюсь у Черкаському державному технологічному університеті (ЧДТУ) на факультеті Ф6. Навчання тут дає мені міцну базу, яка чудово перетинається з моїми технічними та творчими інтересами.
+<body>
+    <div class="container">
+        <header>
+            <div class="header-text">
+                <h1>Богдан Цасюк</h1>
+                <p class="subtitle">IT-ентузіаст, креатор та моушн-дизайнер</p>
+            </div>
+            <img src="2026-09-11 10.50.14.jpg" alt="Фото Богдана Цасюка"> 
+        </header>
+         <nav>
+            <ul>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#education">Освіта</a></li>
+                <li><a href="#experience">Досвід</a></li>
+                <li><a href="#skills">Навички</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about">
+                <h2>Особисті дані</h2>
+                <ul class="info-list">
+                    <li><strong>Дата народження:</strong> 4 листопада 2007 року</li>
+                    <li><strong>Місце проживання:</strong> м. Черкаси, Україна</li>
+                    <li><strong>Електронна пошта:</strong> <a href="mailto:bogdan.tsasiuk@gmail.com">bogdan.tsasiuk@gmail.com</a></li>
+                    <li><strong>Телеграм:</strong> <a href="https://t.me/boday22902">@boday22902</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer">Мій профіль</a></li>
+                </ul>
+            </section>
 
-Моя основна діяльність зосереджена на стику IT, креативу та новітніх технологій. Я займаюсь відеомонтажем, моушн-дизайном і створюю контент за допомогою штучного інтелекту. Також я розвиваюся в напрямку програмування: активно користуюся GitHub та залучаю сучасні AI-асистенти для роботи з кодом.</p>
-</section>
-<section>
- <h2>Досвід роботи</h2>
-  <p>Опишіть ваш досвід роботи тут.</p>
-  <p>відсцтній</p>
-</section>
-<section>
- <h2>Навички</h2>
-  <p>Вивчав JavaScript, HTML, CSS.</p>
-</section>
-<section>
- <h2>Хобі та інтереси</h2>
-  <p>Я навчаюся в Черкаському державному технологічному університеті (ЧДТУ) на факультеті Ф6. Моя основна сфера інтересів — це перетин IT, креативу та новітніх технологій. Я займаюсь відеомонтажем, моушн-дизайном та створюю контент за допомогою штучного інтелекту. Також я розвиваюся в програмуванні, використовуючи GitHub та сучасні AI-інструменти для роботи з кодом.</p>
-</section>
-</section>
-<footer>
- <p>© 2026 Моя Автобіографія</p>
-</footer>
-  </div>
- </body>
+            <section id="education">
+                <h2>Освіта</h2>
+                <article>
+                    <h3>Черкаський державний технологічний університет (ЧДТУ)</h3>
+                    <p>Навчаюся на факультеті Ф6. Здобуваю вищу освіту в галузі інформаційних технологій, що дає міцну теоретичну та практичну базу для професійного зростання.</p>
+                </article>
+            </section>
+
+            <section id="experience">
+                <h2>Досвід та діяльність</h2>
+                <article>
+                    <h3>Розробка програмного забезпечення</h3>
+                    <p>Активо розвиваюся в сфері веброзробки. У процесі написання коду ефективно використовую сучасні <em>AI-асистенти</em>, такі як <strong>GitHub Copilot</strong>.</p>
+                </article>
+            </section>
+
+            <section id="milestones">
+                <h2>Пріоритетні напрямки розвитку</h2>
+                <ol>
+                    <li>Поглиблення знань із фронтенд-розробки (HTML5, CSS3, JavaScript).</li>
+                    <li>Опанування складних технік 3D-графіки та моушн-дизайну.</li>
+                    <li>Інтеграція нейромережевих рішень у розробку вебдодатків.</li>
+                </ol>
+            </section>
+        </main>
+        <aside>
+            <section id="skills">
+                <h2>Навички та інтереси</h2>
+                <div class="skills-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>          
+                    <span>Штучний інтелект</span>
+                </div>
+                <p>Хобі: цікавлюся комп'ютерними іграми, автомобільною тематикою, а також трендами цифрової моди та стритвейру.</p>
+            </section>
+        </aside>
+        <footer>
+            <p>© 2026 Богдан Цасюк. Усі права захищено.</p>
+        </footer>
+    </div>
+</body>
 </html>
